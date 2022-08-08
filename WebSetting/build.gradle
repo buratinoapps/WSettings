@@ -45,7 +45,7 @@ afterEvaluate {
                 artifactId = 'WSettings' //your-repository
                 version = '1.0' // As same as the Tag
 
-                artifact("$buildDir/WSettings/1.0/${artifactId}-release.aar") // here is difference, I used `from components...` before
+                artifact("C:/Users/USER/.m2/repository/com/github/buratinoapps/WSettings/1.0/${artifactId}-release.aar") // here is difference, I used `from components...` before
 
                 // use this if you're using third party in your lib
                 pom.withXml {
