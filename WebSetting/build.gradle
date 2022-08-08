@@ -40,8 +40,7 @@ dependencies {
 afterEvaluate {
     publishing {
         publications {
-            release(MavenPublication){
-                from components.release
+            mavenJava(MavenPublication){
                 groupId = 'com.github.buratinoapps' //your git id
                 artifactId = 'WSettings' //your-repository
                 version = '1.0' // As same as the Tag
